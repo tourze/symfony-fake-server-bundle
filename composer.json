@@ -10,7 +10,13 @@
     "symfony/yaml": "^6.4 || ^7.1",
     "symfony/http-kernel": "^6.4",
     "symfony/framework-bundle": "^6.4",
-    "symfony/event-dispatcher": "^6.4"
+    "symfony/event-dispatcher": "^6.4",
+    "symfony/http-foundation": "^6.4",
+    "symfony/property-access": "^6.4",
+    "symfony/string": "^6.4",
+    "symfony/messenger": "^6.4",
+    "symfony/console": "^6.4",
+    "symfony/expression-language": "^6.4"
   },
   "autoload": {
     "psr-4": {
