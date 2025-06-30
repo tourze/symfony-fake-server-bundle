@@ -7,6 +7,9 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel;
 use Tourze\FakeServerBundle\FakeServerBundle;
 
+/**
+ * @codeCoverageIgnore
+ */
 class IntegrationTestKernel extends Kernel
 {
     public function registerBundles(): iterable
