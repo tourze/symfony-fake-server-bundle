@@ -1,0 +1,5 @@
+services:
+  Tourze\FakeServerBundle\EventSubscriber\RandomServerHeaderResponseSubscriber:
+    autoconfigure: true
+    autowire: true
+    public: true

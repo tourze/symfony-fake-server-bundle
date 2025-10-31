@@ -11,6 +11,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
  */
 class RandomServerHeaderResponseSubscriber
 {
+    /** @var array<string> */
     private array $servers = [
         'cloudflare',
         'Windows-Azure-Web/1.0',
