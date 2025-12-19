@@ -4,7 +4,7 @@ namespace Tourze\FakeServerBundle\DependencyInjection;
 
 use Tourze\SymfonyDependencyServiceLoader\AutoExtension;
 
-class FakeServerExtension extends AutoExtension
+final class FakeServerExtension extends AutoExtension
 {
     protected function getConfigDir(): string
     {
